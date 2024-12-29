@@ -67,9 +67,9 @@ chsh -s /bin/bash
     - выбрать цветовую схему (обычно выбор зависит от свойств дисплея, подбираю наиболее удобную и приятную для глаз);
     - добавить наиболее часто используемые директории в избранное (Ctrl + \);
     - если mc запускает не ту оболочку, которая мне нужна, можно присвоить переменной среды SHELL значение "/bin/bash":
-```
-alias mc="export SHELL=/bin/bash; mc"
-```
+    ```
+    alias mc="export SHELL=/bin/bash; mc"
+    ```
 
 ### Управление дисковыми пространствами и восстановление данных
 - установка parted;
@@ -117,11 +117,11 @@ alias mc="export SHELL=/bin/bash; mc"
     - заполнение данных о пользователе в git;
     - добавление в пользовательский файл настройки оболочки моих alias'ов, переменных и команд для git (https://aufhebung.ru/git_shenanigans/);
     - установка Arduino IDE 2.x и "ядер" для различных линеек микроконтроллеров:
-    1. для AVR (MiniCore): https://mcudude.github.io/MiniCore/package_MCUdude_MiniCore_index.json
-    2. для ESP32: https://espressif.github.io/arduino-esp32/package_esp32_index.json
-    3. для ESP8266: https://arduino.esp8266.com/stable/package_esp8266com_index.json
-    4. для STM32 (stm32duino): https://github.com/stm32duino/BoardManagerFiles/raw/main/package_stmicroelectronics_index.json
-    5. для LGT8F328P: https://raw.githubusercontent.com/dbuezas/lgt8fx/master/package_lgt8fx_index.json
+        1. для AVR (MiniCore): https://mcudude.github.io/MiniCore/package_MCUdude_MiniCore_index.json
+        2. для ESP32: https://espressif.github.io/arduino-esp32/package_esp32_index.json
+        3. для ESP8266: https://arduino.esp8266.com/stable/package_esp8266com_index.json
+        4. для STM32 (stm32duino): https://github.com/stm32duino/BoardManagerFiles/raw/main/package_stmicroelectronics_index.json
+        5. для LGT8F328P: https://raw.githubusercontent.com/dbuezas/lgt8fx/master/package_lgt8fx_index.json
 - установка Arduino CLI;
 - установка esptool.py (устанавливается с помощью pip);
 - установка Visual Studio Code (VS Code) / VSCodium;
